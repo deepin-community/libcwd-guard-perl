@@ -1,0 +1,20 @@
+Source: libcwd-guard-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Oleg Gashev <oleg@gashev.net>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9), libmodule-build-perl, perl
+Build-Depends-Indep: libtest-requires-perl
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libcwd-guard-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libcwd-guard-perl.git
+Homepage: https://metacpan.org/release/Cwd-Guard
+
+Package: libcwd-guard-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: module for temporarily changing working directory (chdir)
+ Cwd::Guard provides changing the current directory (chdir) using a limited
+ scope. Return to current working directory, if this object destroyed. If
+ failed to chdir, error messages stored to $Gwd::Guard::Error.

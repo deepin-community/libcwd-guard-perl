@@ -1,0 +1,53 @@
+libcwd-guard-perl (0.05-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 0.05
+  * Bump Debhelper compat level to 9
+  * Declare compliance with Debian policy 3.9.8
+  * Make Build-Depends on libmodule-build-perl unversioned
+  * Update Build-Depends for perl.
+    Replace alternative Build-Depends on perl (>= 5.13.10) or
+    libcpan-meta-perl with only perl.
+  * Add Build-Depends-Indep on libtest-requires-perl
+  * Wrap and sort fields in debian/control file
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 22 May 2016 10:49:30 +0200
+
+libcwd-guard-perl (0.4-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Unconditionally build depend on libmodule-build-perl.
+    (Closes: #789140)
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 18 Jun 2015 16:58:55 +0200
+
+libcwd-guard-perl (0.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Oleg Gashev <oleg@gashev.net>  Thu, 13 Jun 2013 18:45:45 +0000
+
+libcwd-guard-perl (0.3-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #709235)
+
+ -- Oleg Gashev <oleg@gashev.net>  Tue, 21 May 2013 11:39:04 +0000
